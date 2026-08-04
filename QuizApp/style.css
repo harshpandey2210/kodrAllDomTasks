@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainBox h1{
+    text-align: center;
+}
+#mainBox{
+    width:700px;
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 0px;
+    border-radius: 10px;
+    position: relative;
+}
+#form{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+#form .A{
+    height:200px;
+    width:699px;
+}
+button{
+    width:650px;
+    height: 40px;
+    background-color: rgb(104, 180, 235);
+}
+#marks{
+    position: absolute;
+    bottom: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    right: 80px;
+    background-color: rgb(202, 255, 127);
+    height: 150px;
+    width: 150px;
+    font-size: 40px;
+    text-align:center;
+    padding-top: 20px;
+}

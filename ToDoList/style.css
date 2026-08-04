@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    margin: 50px;
+}
+#form input{
+    padding: 10px;
+    width: 500px;
+}
+#form button{
+    background-color: aqua;
+    padding: 10px;
+}
+.box{
+    height: 150px;
+    width: 300px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px;
+    color: black;
+    margin-top: 20px;
+}
+.box .done{
+    background-color: rgb(151, 227, 37);
+}
+.box .deleteB{
+    background-color: rgb(208, 45, 45);
+}
