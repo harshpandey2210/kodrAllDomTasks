@@ -12,6 +12,7 @@ form.addEventListener('submit',(e)=>{
     let a = 0;
 
     for(let [name,value] of data.entries()){
+        console.log(name,value);
         if(answer[a] == value)total++;
         a++;
     }
